@@ -2,7 +2,7 @@
 
 Implementación piloto de  un sistema de geofencing difuso (fuzzy geofencing) para la gestión de geocercas sanitizadoras utilizando PostgreSQL+ PostGIS. El sistema permite evaluar la pertenencia de puntos a geocercas con tolerancia, proporcionando tanto resultados booleanos como grados de pertenencia continuos.
 
-## Descripción del Proyecto
+## Descripción del Piloto
 
 El sistema de **Geocercas Sanitizadoras** implementa un enfoque de geofencing difuso que permite:
 
@@ -180,14 +180,16 @@ El script incluye datos de prueba con diferentes escenarios:
 
 ### Captura de Pantalla del Ejemplo
 ![Captura de Pantalla](screen1.JPG)
-*Interfaz o visualización del sistema en funcionamiento*
+*Visualización datos ejemplo*
+
+### Intersección Difusa Booleana
+![Intersección Difusa](interseccion_difusa.JPG)
+*Intersección difusa con tolerancia*
 
 ### Visualización del Grado Difuso
 ![Grado Difuso](grado_difuso.JPG)
 *Representación visual del concepto de grado difuso en geofencing*
 
-### Intersección Difusa
-![Intersección Difusa](interseccion_difusa.JPG)
-*Diagrama explicativo de la intersección difusa con tolerancia*
+
 
 
